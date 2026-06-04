@@ -77,7 +77,6 @@ export default function Problem() {
           <p className="text-slate-400 text-sm">
             Medicare est conçu exactement pour ces moments-là.
           </p>
-          <div className="w-0.5 h-8 bg-gradient-to-b from-medicare-teal to-transparent rounded-full" />
         </div>
       </div>
     </section>

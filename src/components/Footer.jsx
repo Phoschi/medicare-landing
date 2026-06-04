@@ -23,10 +23,6 @@ export default function Footer() {
               Comprendre sa douleur musculo-squelettique.
               Agir en confiance. Être orienté vers le bon niveau de prise en charge.
             </p>
-            <div className="inline-flex items-center gap-2 bg-medicare-teal/20 border border-medicare-teal/30 rounded-lg px-3 py-1.5">
-              <span className="w-1.5 h-1.5 bg-medicare-teal rounded-full animate-pulse" />
-              <span className="text-xs text-medicare-teal font-medium">Santé digitale musculo-squelettique</span>
-            </div>
           </div>
 
           {/* Links */}

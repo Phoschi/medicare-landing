@@ -51,7 +51,7 @@ export default function Solution() {
             <span className="text-gradient">claire et responsable</span>
           </h2>
           <p className="text-lg text-slate-500 max-w-2xl mx-auto leading-relaxed">
-            Medicare n&apos;est pas une app wellness vague ni un remplacement du diagnostic médical.
+            Medicare n&apos;est pas une application qui veut remplacer les soignants.
             C&apos;est un outil d&apos;aide à la décision pensé pour les douleurs musculo-squelettiques,
             avec une logique de prudence clinique et une analyse explicable.
           </p>

@@ -20,7 +20,7 @@ const aiPrinciples = [
   {
     icon: AlertTriangle,
     title: 'Prudence si signal faible',
-    desc: 'Quand le signal est trop ambigu ou que la situation sort du cadre, Medicare ne conclut pas — il oriente vers un professionnel.',
+    desc: 'Quand le signal est trop ambigu ou que la situation sort du cadre, Medicare ne conclut pas, il oriente vers un professionnel.',
   },
 ]
 
@@ -67,7 +67,7 @@ export default function Trust() {
           <p className="text-lg text-white/60 max-w-2xl mx-auto leading-relaxed">
             Medicare ne prétend pas tout savoir ni tout résoudre.
             Sa valeur réside dans la clarté, la prudence clinique et la transparence
-            de son raisonnement.
+            de son raisonnement. Notre but, c'est de réduire la friction et l'accès aux soins.
           </p>
         </motion.div>
 

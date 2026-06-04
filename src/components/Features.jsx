@@ -25,7 +25,6 @@ const features = [
     desc: 'Hypothèses classées, décision argumentée, signaux tracés. Pas une boîte noire.',
     color: 'text-teal-500',
     bg: 'bg-teal-50',
-    highlight: true,
   },
   {
     icon: ShieldAlert,
@@ -33,7 +32,6 @@ const features = [
     desc: 'Fièvre, déficit neurologique, troubles sensitifs : les signaux critiques ne passent pas inaperçus.',
     color: 'text-red-500',
     bg: 'bg-red-50',
-    highlight: true,
   },
   {
     icon: Navigation2,
@@ -158,7 +156,6 @@ export default function Features() {
               {highlight && (
                 <div className="mt-3">
                   <span className="text-[10px] font-semibold text-medicare-teal uppercase tracking-wide">
-                    Fonctionnalité clé
                   </span>
                 </div>
               )}

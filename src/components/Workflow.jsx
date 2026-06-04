@@ -36,7 +36,6 @@ const steps = [
     bg: 'bg-red-50',
     title: 'Détection des red flags',
     desc: 'Le système identifie les signaux d\'alerte : fièvre associée, déficit neurologique, troubles sensitifs. En cas de red flag, vous êtes immédiatement réorienté.',
-    highlighted: true,
   },
   {
     number: '05',
@@ -92,8 +91,7 @@ export default function Workflow() {
           </h2>
           <p className="text-lg text-slate-500 max-w-2xl mx-auto leading-relaxed">
             Un flux pensé pour être simple, guidé et rassurant.
-            Pas de jargon, pas d&apos;incertitude inutile — juste une progression logique
-            vers la bonne décision.
+            Pas d&apos;incertitude inutile, juste une progression logique vers la bonne décision.
           </p>
         </motion.div>
 
@@ -130,26 +128,11 @@ export default function Workflow() {
                 {step.highlighted && (
                   <div className="mt-3 flex items-center gap-1.5">
                     <div className="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse" />
-                    <span className="text-xs text-red-500 font-semibold">Sécurité prioritaire</span>
                   </div>
                 )}
               </motion.div>
             )
           })}
-        </div>
-
-        {/* Visual flow line hint */}
-        <div className="hidden lg:flex items-center justify-center mt-8 gap-2">
-          {steps.map((_, i) => (
-            <div key={i} className="flex items-center gap-2">
-              <div className={`w-2 h-2 rounded-full ${
-                i === 3 ? 'bg-red-400' : 'bg-medicare-blue/40'
-              }`} />
-              {i < steps.length - 1 && (
-                <div className="w-8 h-0.5 bg-slate-200" />
-              )}
-            </div>
-          ))}
         </div>
       </div>
     </section>

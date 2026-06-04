@@ -4,32 +4,32 @@ import { QrCode, Wifi, ClipboardCheck, Send, Monitor, Users } from 'lucide-react
 const kineSteps = [
   {
     icon: Monitor,
-    title: 'Le kiné ouvre le dashboard',
+    title: '1. Le kiné ouvre le dashboard',
     desc: 'Interface web dédiée, accès rapide aux sessions et à l\'historique patient.',
   },
   {
     icon: QrCode,
-    title: 'Génération d\'un QR code de session',
+    title: '2. Génération d\'un QR code de session',
     desc: 'En un clic, un QR code unique est généré pour la consultation en cours.',
   },
   {
     icon: Wifi,
-    title: 'Connexion en temps réel',
+    title: '3. Connexion en temps réel',
     desc: 'Le patient scanne le QR code depuis l\'app. Les données affluent instantanément via WebSocket.',
   },
   {
     icon: ClipboardCheck,
-    title: 'Vision immédiate du contexte',
+    title: '4. Vision immédiate du contexte',
     desc: 'Zone douloureuse, description, âge, sport, métier, antécédents, résultat de l\'analyse IA.',
   },
   {
     icon: Send,
-    title: 'Avis et plan d\'action',
+    title: '5. Avis et plan d\'action',
     desc: 'Le kiné confirme ou ajuste le diagnostic, prescrit des exercices, définit une durée de suivi.',
   },
   {
     icon: Users,
-    title: 'Le patient reçoit en direct',
+    title: '6. Le patient reçoit en direct',
     desc: 'Le diagnostic kiné s\'affiche instantanément dans l\'application du patient.',
   },
 ]
@@ -70,7 +70,7 @@ export default function KineSection() {
           </h2>
           <p className="text-lg text-slate-500 max-w-2xl mx-auto leading-relaxed">
             Medicare ne s&apos;arrête pas à l&apos;auto-soin. Quand un kiné prend le relai,
-            la connexion est instantanée, structurée et bidirectionnelle.
+            la connexion est instantanée, structurée et sécurisé.
           </p>
         </motion.div>
 

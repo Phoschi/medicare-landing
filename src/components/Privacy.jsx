@@ -65,9 +65,9 @@ export default function Privacy() {
             <span className="text-gradient">les vôtres</span>
           </h2>
           <p className="text-lg text-slate-500 max-w-2xl mx-auto leading-relaxed">
-            Dans un domaine aussi sensible que la santé, la confiance ne se décrète pas.
-            Elle se construit par des choix techniques concrets : stockage local, mode anonyme,
-            export total et contrôle permanent.
+            Dans un domaine aussi sensible que la santé, la confiance n'est pas optionnelle.
+            Elle est primordiale et demande une rigueur technique : stockage local, mode anonyme,
+            Export total et contrôle permanent. Vos données sont précieuses, alors on se doit d'être au niveau
           </p>
         </motion.div>
 
