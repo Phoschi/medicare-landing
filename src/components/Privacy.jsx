@@ -65,9 +65,10 @@ export default function Privacy() {
             <span className="text-gradient">les vôtres</span>
           </h2>
           <p className="text-lg text-slate-500 max-w-2xl mx-auto leading-relaxed">
-            Dans un domaine aussi sensible que la santé, la confiance n'est pas optionnelle.
-            Elle est primordiale et demande une rigueur technique : stockage local, mode anonyme,
-            Export total et contrôle permanent. Vos données sont précieuses, alors on se doit d'être au niveau
+            Parce que vos données de santé sont sensibles, la confiance doit être totale. 
+            Nous avons conçu l’application autour de principes clairs : stockage local, mode anonyme, 
+            export complet et contrôle permanent de vos informations. 
+            Vos données vous appartiennent, notre rôle est de les protéger avec le niveau d’exigence qu’elles méritent
           </p>
         </motion.div>
 

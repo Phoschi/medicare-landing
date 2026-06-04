@@ -65,9 +65,8 @@ export default function Trust() {
             <span className="text-gradient-light">et prudente</span>
           </h2>
           <p className="text-lg text-white/60 max-w-2xl mx-auto leading-relaxed">
-            Medicare ne prétend pas tout savoir ni tout résoudre.
-            Sa valeur réside dans la clarté, la prudence clinique et la transparence
-            de son raisonnement. Notre but, c'est de réduire la friction et l'accès aux soins.
+            Medicare n’a pas vocation à remplacer le jugement médical, ni à apporter une réponse à tout. 
+            Notre ambition : réduire les frictions dans le parcours de soin et rendre l’accès aux soins plus simple.
           </p>
         </motion.div>
 

@@ -27,7 +27,7 @@ export default function CTAFinal() {
 
           <p className="text-lg text-slate-500 max-w-xl mx-auto leading-relaxed mb-10">
             Testez Medicare dès aujourd&apos;hui. Décrivez une douleur, obtenez une orientation
-            claire, accédez à un protocole adapté — ou connectez-vous à votre kiné en direct.
+            claire, accédez à un protocole adapté, ou connectez-vous à votre kiné en direct.
           </p>
 
           {/* CTAs */}
